@@ -17,4 +17,5 @@ urlpatterns = [
     path('view/add', views.addView, name='add'),
     path('update/index',views.index, name='index'),
     path('update/add',views.addView, name='add'),
+    path('static/header.html',views.header, name='header'),
 ]
