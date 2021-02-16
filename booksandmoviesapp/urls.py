@@ -5,6 +5,7 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('index', views.index, name='index'),
     path('add/index', views.index, name='index'),
     path('add/add', views.addView, name='add'),
     path('add/',views.addView, name='add'),
@@ -17,5 +18,4 @@ urlpatterns = [
     path('view/add', views.addView, name='add'),
     path('update/index',views.index, name='index'),
     path('update/add',views.addView, name='add'),
-    path('static/header.html',views.header, name='header'),
 ]

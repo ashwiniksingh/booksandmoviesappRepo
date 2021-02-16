@@ -41,6 +41,7 @@ def update(request,pk):
     messages.success(request, "Book/Movie Updated Successfully!")
     return redirect('index')
 
-
+"""
 def header(request):
     return render(request, 'static/header.html')
+"""
